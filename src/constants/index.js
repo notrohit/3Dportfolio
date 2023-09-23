@@ -219,9 +219,8 @@ const projects = [
     source_code_link: "https://car-listings-one.vercel.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "SaaS Landing",
+    description: "A simple landing page for a SaaS Agency.",
     tags: [
       {
         name: "react",
@@ -237,7 +236,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://agency-landing-pink.vercel.app/",
   },
   {
     name: "Trip Guide",
