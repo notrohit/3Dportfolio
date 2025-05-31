@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import emoksha from "./emoksha.png";
+import wildfire from "./wildfire.png";
+import xintra from "./xintra.png";
+import qnext from "./qnext.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  emoksha,
+  wildfire,
+  xintra,
+  qnext,
 };

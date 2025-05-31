@@ -22,6 +22,10 @@ import {
   carrent,
   jobit,
   tripguide,
+  emoksha,
+  qnext,
+  wildfire,
+  xintra,
   threejs,
 } from "../assets";
 
@@ -177,7 +181,6 @@ const experiences = [
   },
 ];
 
-
 const testimonials = [
   {
     testimonial:
@@ -207,50 +210,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Xintra Labs",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://car-listings-one.vercel.app/",
-  },
-  {
-    name: "SaaS Landing",
-    description: "A simple landing page for a SaaS Agency.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://agency-landing-pink.vercel.app/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A B2B cybersecurity team training and upskilling company serving across energy, finance and government sectors.",
     tags: [
       {
         name: "nextjs",
@@ -265,8 +227,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: xintra,
+    source_code_link: "https://www.xintra.org/",
+  },
+  {
+    name: "Qnext AI",
+    description:
+      "A Generative AI platform for enterprise, we can provide you customized solution to help improve your user engagement.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qnext,
+    source_code_link: "https://www.qnext.ai/",
+  },
+  {
+    name: "Emoksha Landing",
+    description:
+      "A B2B Data science and AI company that provides data-driven solutions for businesses.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emoksha,
+    source_code_link: "https://emokshallc.com/",
   },
 ];
 
